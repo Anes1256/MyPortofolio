@@ -1,0 +1,287 @@
+body {
+    background-color: rgba(40,42,54,255);
+    height: 140vh;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15000000px;
+    background: rgba(0, 0, 0, 0.6); 
+    z-index: -1;
+}
+#me{
+   position: absolute;
+   width: 100%;
+   height: 400px;
+   margin-top: 8rem;
+   background-color: white;
+   left: 0;
+}
+#programmer{
+    position: absolute;
+    margin-top: 1rem;
+    width: 600px;
+    height: 650px;
+    margin-left: 910px;
+}
+#name{
+    position: absolute;
+    font-size: 115px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-top: 110px;
+}
+#about_me{
+    position: absolute;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bolder;
+    margin-top: 270px;
+    line-height: 60px;
+}
+strong{
+    font-size: 45px;
+    font-family: cursive;
+    font-weight: 900;
+}
+#scroll{
+    position: absolute;
+    width: 850px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(18, 196, 220);
+    color: white;
+    font-size: 20px;
+    margin-top: 430px;
+    border: none;
+    margin-left: 10px;
+}
+#scroll:hover{
+    background-color: rgb(10, 50, 56);   
+}
+#html_card{
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    background-color: rgb(66, 63, 63);
+    margin-top: 800px;
+    margin-left: 200px;
+    border-radius: 30px;
+    border: 3px solid orangered;
+    box-shadow: 0px 0px 9px 9px rgb(1, 53, 1);
+    transition: box-shadow 1s ease-in-out;
+    transition: transform 1s ease-in-out;
+}
+#html_card:hover{
+    box-shadow: 0px 0px 14px 14px orangered;
+    transform: scale(1.1);
+}
+#html_logo{
+    position: absolute;
+    width: 430px;
+    height: 450px;
+    margin-top: -90px;
+    margin-left: -40px;
+}
+#html_des{
+    position: absolute;
+    font-size: 23px;
+    color: white;
+    font-family: monospace;
+    margin-top: 250px;
+    font-weight: 200;
+    margin-left: 30px;
+    line-height: 40px;
+    box-shadow: 6px 6px 6px 6px orangered;
+}
+#css_card{
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    background-color: rgb(66, 63, 63);
+    border: none;
+    margin-top: 800px;
+    margin-left: 900px;
+    border-radius: 30px;
+    border: 3px solid blue;
+    box-shadow: 0px 0px 9px 9px rgb(1, 53, 1);
+    transition: box-shadow 1s ease-in-out;
+    transition: transform 1s ease-in-out;
+}
+#css_card:hover{
+    box-shadow: 0px 0px 14px 14px blue;
+    transform: scale(1.1);
+}
+#css_logo{
+    position: absolute;
+    width: 220px;
+    height: 240px;
+    margin-top: 6px;
+    margin-left: 60px;
+}
+#css_des{
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    font-family: monospace;
+    margin-top: 250px;
+    font-weight: 200;
+    margin-left: 25px;
+    line-height: 30px;
+    box-shadow: 6px 6px 6px 6px blue;
+}
+#js_card{
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    background-color: rgb(66, 63, 63);
+    border: none;
+    margin-top: 1300px;
+    margin-left: 570px;
+    border-radius: 30px;
+    border: 3px solid yellow;
+    box-shadow: 0px 0px 9px 9px rgb(1, 53, 1);
+    transition: box-shadow 1s ease-in-out;
+    transition: transform 1s ease-in-out;
+}
+#js_card:hover{
+    box-shadow: 0px 0px 14px 14px yellow;
+    transform: scale(1.1);
+}
+#js_logo{
+    position: absolute;
+    width: 220px;
+    height: 210px;
+    margin-top: 6px;
+    margin-left: 60px;
+}
+#js_des{
+    position: absolute;
+    font-size: 22px;
+    color: white;
+    font-family: monospace;
+    margin-top: 250px;
+    font-weight: 200;
+    margin-left: 18px;
+    line-height: 30px;
+    box-shadow: 6px 6px 6px 6px yellow;
+}
+#py_card{
+    position: absolute;
+    width: 1300px;
+    height: 650px;
+    background-color: rgb(66, 63, 63);
+    border: none;
+    margin-top: 1850px;
+    margin-left: 100px;
+    border-radius: 30px;
+    border: 3px solid blue;
+    box-shadow: 0px 0px 9px 9px rgb(1, 53, 1);
+    transition: box-shadow 2s ease-in-out;
+    transition: transform 1s ease-in-out;
+}
+#py_card:hover{
+    box-shadow: 0px 0px 14px 14px blue;
+    transform: scale(1.1);
+}
+#py_logo{
+    position: absolute;
+    width: 310px;
+    height: 300px;
+    margin-top: 6px;
+    margin-left: 515px;
+}
+#py_des{
+    position: absolute;
+    font-size: 24px;
+    color: white;
+    font-family: monospace;
+    margin-top: 350px;
+    font-weight: 200;
+    margin-left: 26px;
+    line-height: 30px;
+    box-shadow: 6px 6px 6px 6px blue;
+    line-height: 60px;
+}
+#py_card {
+    position: absolute;
+    width: 1300px;
+    height: 650px;
+    background-color: rgb(66, 63, 63);
+    border-radius: 30px;
+    border-top: 3px solid rgb(209, 209, 5);
+    border-right: 3px solid rgba(186, 186, 6, 0.689);
+    border-bottom: 3px solid rgb(6, 103, 164);
+    border-left: 3px solid rgb(9, 192, 216);
+    box-shadow: 0px 0px 9px 9px rgb(1, 53, 1);
+    transition: box-shadow 2s ease-in-out, transform 1s ease-in-out;
+    margin-top: 1850px;
+    margin-left: 100px;
+}
+#contact{
+    position: absolute;
+    width: 902px;
+    height: 452px;
+    background-color: rgb(50, 47, 47);
+    margin-top: 2700px;
+    margin-left: 300px;
+    z-index: 1;
+}
+#contacttitle{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2630px;
+    font-weight: bolder;
+    margin-left: 650px;
+}
+#contactborder{
+    position: absolute;
+    width: 897px;
+    height: 530px;
+    margin-top: 2617px;
+    margin-left: 302px;
+    border: 1px solid white;
+    z-index: 0;
+    border-radius: 30px 30px 0px 0px;
+}
+#facebook{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 130px;
+    margin-left: 170px;
+    transition: transform 1s ease-in-out;
+}
+#facebook:hover{
+    transform: scale(1.1);
+}
+#gmail{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 130px;
+    margin-left: 580px;
+    transition: transform 1s ease-in-out;
+}
+#gmail:hover{
+    transform: scale(1.1);
+}
+#copyright{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 3300px;
+    margin-left: 600px;
+}
+
